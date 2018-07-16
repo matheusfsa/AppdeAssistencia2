@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.msa.appdeassistencia">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Info"
+            android:label="@string/app_name"
+            android:theme="@style/AppCompat.TelaCheia" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CadastroEtapa1"
+            android:label="@string/title_activity_cadastro_etapa1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Info2"
+            android:label="@string/title_activity_info2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CadastroEtapa2"
+            android:label="@string/title_activity_cadastro_etapa2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CadastroEtapa3"
+            android:label="@string/title_activity_cadastro_etapa3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CadastroEtapa4"
+            android:label="@string/title_activity_cadastro_etapa4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.TelaFinal"
+            android:label="@string/title_activity_tela_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.QuemSomos"
+            android:label="@string/title_activity_quem_somos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.ComoFunciona"
+            android:label="@string/title_activity_como_funciona"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Sugestoes"
+            android:label="@string/title_activity_sugestoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Noticia"
+            android:label="@string/title_activity_noticia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.ListarNoticias"
+            android:label="@string/title_activity_listar_noticias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.Precadastro"
+            android:label="@string/title_activity_precadastro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CadastroEtapa5"
+            android:label="@string/title_activity_cadastro_etapa5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.AcompanhaCadastro"
+            android:label="@string/title_activity_acompanha_cadastro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="arquitetossemcracha.example.com.appdeassistencia2.CidadeEstadoActivity"
+            android:label="@string/title_activity_cidade_estado"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
