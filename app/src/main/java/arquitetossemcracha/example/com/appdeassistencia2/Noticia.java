@@ -21,7 +21,7 @@ public class Noticia extends AppCompatActivity {
         setContentView(R.layout.activity_noticia);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
+        getSupportActionBar().setTitle(R.string.app_name);
         NoticiaObj n = (NoticiaObj)getIntent().getSerializableExtra("noticia");
         TextView titulo = (TextView)findViewById(R.id.titulo_not);
         TextView data = (TextView)findViewById(R.id.data_not);

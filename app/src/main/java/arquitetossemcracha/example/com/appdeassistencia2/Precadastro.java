@@ -25,7 +25,7 @@ public class Precadastro extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(R.string.app_name);
         getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
-        id = -1;
+        id = 1;
         n_ins = findViewById(R.id.editText);
         CheckBox cb = findViewById(R.id.is);
         n_ins.setVisibility(View.VISIBLE);

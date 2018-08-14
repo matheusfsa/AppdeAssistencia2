@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Aplicativo"
+        android:text="@string/app_name"
         android:textColor="#fff"
         android:textSize="30dp"
         app:fontFamily="@font/telex" />

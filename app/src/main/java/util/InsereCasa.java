@@ -63,6 +63,7 @@ public class InsereCasa extends AsyncTask<String, String, String> {
         progressDialog.setMessage("Incluindo, por favor espere...");
         progressDialog.setCancelable(false);
         progressDialog.show();
+        progressDialog.dismiss();
     }
 
     @Override

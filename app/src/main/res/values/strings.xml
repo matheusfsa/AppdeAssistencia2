@@ -62,4 +62,7 @@
     <string name="enviar">Enviar</string>
     <string name="sug_sucesso">Sugestão enviada com sucesso!</string>
     <string name="cad_sucesso">Cadastro enviado com sucesso!</string>
+    <string name="como_funciona_l1">Para realizar o seu cadastro, você deve seguir as seguintes etapas:</string>
+    <string name="como_funciona_l2">1- No menu principal, escolha a opção CADASTRE-SE</string>
+    <string name="como_funciona_l3">2- Responda os formulários, que solicitarão os seus dados e os dados da casa</string>
 </resources>

@@ -16,15 +16,11 @@ public class ComoFunciona extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_texto);
+        setContentView(R.layout.activity_como_funciona);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
         getSupportActionBar().setTitle(R.string.app_name);
-        TextView titulo = (TextView)findViewById(R.id.titulo_txt) ;
-        titulo.setText(R.string.title_como_funciona);
-        TextView txt = (TextView)findViewById(R.id.txt) ;
-        txt.setText("Como Funciona");
         Button voltar = (Button)findViewById(R.id.btn_voltar2);
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override

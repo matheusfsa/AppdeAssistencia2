@@ -47,7 +47,9 @@ public class AcompanhaCadastro extends AppCompatActivity {
         setContentView(R.layout.activity_acompanha_cadastro);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         list = (ListView) findViewById(R.id.listview1);
+        getSupportActionBar().setTitle(R.string.app_name);
         getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
         lista = new ArrayList<>();
         SharedPreferences prefs = getSharedPreferences(NOME_PREFERENCE, MODE_PRIVATE);

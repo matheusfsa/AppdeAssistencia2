@@ -14,15 +14,11 @@ public class QuemSomos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_texto);
+        setContentView(R.layout.activity_quem_somos);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(R.string.app_name);
         getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
-        TextView titulo = (TextView)findViewById(R.id.titulo_txt) ;
-        titulo.setText(R.string.title_quem_somos);
-        TextView txt = (TextView)findViewById(R.id.txt) ;
-        txt.setText(R.string.txt_quem_somos);
         Button voltar = (Button)findViewById(R.id.btn_voltar2);
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override

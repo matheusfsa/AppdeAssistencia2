@@ -16,10 +16,7 @@ public class Info2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info2);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.app_name);
-        getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
+
         Button b = (Button) findViewById(R.id.avancar_info2);
 
         b.setOnClickListener(new View.OnClickListener() {

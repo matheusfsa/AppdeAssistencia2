@@ -46,7 +46,6 @@ public class Sugestoes extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(R.string.app_name);
-        getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         final EditText ed = findViewById(R.id.editTextSugestao);

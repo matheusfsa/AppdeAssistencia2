@@ -17,10 +17,9 @@ public class CadastroEtapa1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_etapa1);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        getSupportActionBar().setTitle(R.string.app_name);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
         getSupportActionBar().setTitle(R.string.app_name);
+        getSupportActionBar().setIcon(R.drawable.ico_pequeno56);
 
         RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup2);
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {

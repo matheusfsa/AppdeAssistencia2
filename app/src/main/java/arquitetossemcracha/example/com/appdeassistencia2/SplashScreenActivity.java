@@ -71,7 +71,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences(NOME_PREFERENCE, MODE_PRIVATE);
         String login= prefs.getString("cpf", null);
         String cidade= prefs.getString("cidade", null);
-        Toast.makeText(this,cidade,Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this,cidade,Toast.LENGTH_SHORT).show();
         String estado= prefs.getString("estado", null);
         if (login!= null  || cidade != null) {
             first = false;

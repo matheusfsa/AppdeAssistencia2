@@ -7,7 +7,19 @@
     android:layout_height="match_parent"
     android:background="#6098A9"
     tools:context="arquitetossemcracha.example.com.appdeassistencia2.Info">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/botao"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
     <include
         android:id="@+id/include"
         layout="@layout/content_info"
